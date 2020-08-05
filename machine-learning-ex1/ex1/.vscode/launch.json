@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "OctaveDebugger",
+            "request": "launch",
+            "name": "Octave Program",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.m", //调试程序文件
+            "octave": "octave-cli",
+            "sourceFolder": "${workspaceFolder}", //当前文件夹
+            "autoTerminate": true
+        }
+    ]
+}
